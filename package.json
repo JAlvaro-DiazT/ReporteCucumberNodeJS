@@ -1,0 +1,27 @@
+{
+  "name": "reportecucumbernodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ".\\node_modules\\.bin\\cucumber-js .\\features\\"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JAlvaro-DiazT/ReporteCucumberNodeJS.git"
+  },
+  "author": "Alvaro Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JAlvaro-DiazT/ReporteCucumberNodeJS/issues"
+  },
+  "homepage": "https://github.com/JAlvaro-DiazT/ReporteCucumberNodeJS#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "selenium-webdriver": "^4.14.0"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^7.1.1",
+    "gulp": "^4.0.2"
+  }
+}
